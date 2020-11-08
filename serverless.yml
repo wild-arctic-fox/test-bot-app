@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: short-bot
+service: test-bot
 provider:
   name: aws
   runtime: nodejs12.x
@@ -21,7 +21,7 @@ functions:
     handler: handler.shortbot
     events:
       - http:
-          path: short-bot
+          path: test-bot
           method: post
           cors: true
         
