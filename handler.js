@@ -26,7 +26,7 @@ module.exports.shortbot = async event => {
   if (text) {
     let message = '';
     try {
-      message = `ZFT, ${text}!`;
+      message = `ZFT3, ${text}!`;
     } catch (error) {
       message = `Input: ${text}, \nError: ${error.message}`;
     }
