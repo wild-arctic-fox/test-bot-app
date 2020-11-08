@@ -26,7 +26,7 @@ module.exports.shortbot = async event => {
   if (text) {
     let message = '';
     try {
-      message = `OMG  , ${text}!`;
+      message = `Bonjour, ${text}!`;
     } catch (error) {
       message = `Input: ${text}, \nError: ${error.message}`;
     }
