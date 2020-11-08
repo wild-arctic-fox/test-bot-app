@@ -25,5 +25,3 @@ functions:
           method: post
           cors: true
         
-org: wildarcticfox
-app: test-bot-app
