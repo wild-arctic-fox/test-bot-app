@@ -24,3 +24,6 @@ functions:
           path: short-bot
           method: post
           cors: true
+        
+org: wildarcticfox
+app: test-bot-app
